@@ -23,7 +23,7 @@ public class intersectionOf2Arrays {
 
     }
     //Method 2
-    public int[] intersect(int[] nums1, int[] nums2) {
+    public int[] intersect1(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> map=new HashMap<>();
         ArrayList<Integer> output = new ArrayList<>();
         for(int i=0;i<nums1.length;i++){
