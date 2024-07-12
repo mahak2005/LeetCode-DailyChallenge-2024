@@ -4,7 +4,7 @@ import java.util.*;
 
 public class RobotCollisions {
     public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String       directions) {
-        int n=positions.length
+        int n=positions.length;
         Integer[] indexes=new Integer[n];
         for(int i=0;i<n;i++){
             indexes[i]=i;
