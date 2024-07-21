@@ -19,12 +19,11 @@ public class BuildAMatrixWithConditions {
             }
         }
         Queue<Integer> queue = new LinkedList<>();
-        for(int i=1;i<=V;i++){
-            if(indegree[i]==0){
+        for(int i=1;i<=V;i++) {
+            if (indegree[i] == 0) {
                 queue.offer(i);
             }
         }
-        //3
 
         ArrayList<Integer> res = new ArrayList<>();
         while(!queue.isEmpty()){
